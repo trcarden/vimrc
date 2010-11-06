@@ -11,3 +11,5 @@ Some changes might cause errors on git commits to remedy simply supply a direct 
 of vim via: 
 
 git config --global core.editor /usr/bin/vim
+
+Source of intructions: http://www.cuberick.com/2010/02/vim-vs-rubymine.html 

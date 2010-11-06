@@ -5,7 +5,6 @@ syntax enable
 set number
 "set wrap!
 
-
 "font
 set guifont=Menlo:h12
 
@@ -28,7 +27,7 @@ imap <F11> <ESC>1G=Ga
 map <C-\> :NERDTreeFind<CR>
 map <C-n> :FufFile **/<CR>
 map <C-e> :MRU<CR>
-
+"map <C-m> :FufBuffer **/<CR>
 "Changes the custom leader key to comma which is better than \ slash
 let mapleader = ","
 
