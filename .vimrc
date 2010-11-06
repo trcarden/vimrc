@@ -2,15 +2,15 @@
 set ruler
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]
 syntax enable
-"set number
+set number
 "set wrap!
 
-"use different colorscheme for mac vim and console vim
-if has('gui_running')
-  colorscheme vividchalk
-else
-  colorscheme desert256
-endif 
+
+"font
+set guifont=Menlo:h12
+
+"Color scheme
+colorscheme ir_black
 
 "2 spaces per tab
 set bs=2
