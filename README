@@ -6,3 +6,8 @@ To get this whole thing working simply:
   1) remove or merge your previous .vimrc /.gvimrc files into mine
   2) create a symlink in your home directory that points to the one in your .vim folder / git clone
 
+
+Some changes might cause errors on git commits to remedy simply supply a direct path to the terminal version
+of vim via: 
+
+git config --global core.editor /usr/bin/vim
