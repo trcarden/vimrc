@@ -29,8 +29,12 @@ map <C-\> :NERDTreeFind<CR>
 map <C-n> :FufFile **/<CR>
 map <C-e> :MRU<CR>
 
+"Changes the custom leader key to comma which is better than \ slash
+let mapleader = ","
+
 "search
-set incsearch
+set hlsearch "high light search terms
+set incsearch "highlight search terms as they are typed
 set ignorecase
 
 "misc
@@ -51,3 +55,5 @@ map <silent> e <Plug>CamelCaseMotion_e
 sunmap w
 sunmap b
 sunmap e
+
+set history=1000
