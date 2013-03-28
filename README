@@ -4,7 +4,9 @@ This is my .vim directory and my .vimrc
 To get this whole thing working simply:
 
   1) remove or merge your previous .vimrc /.gvimrc files into mine
-  2) create a symlink in your home directory that points to the one in your .vim folder / git clone
+  2) clone this repo as .vim in your home directory.
+  3) create a symlink to .vimrc in your newly created .vim repo
+  4) boot vim
 
 
 Some changes might cause errors on git commits to remedy simply supply a direct path to the terminal version
